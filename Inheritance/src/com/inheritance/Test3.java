@@ -23,7 +23,8 @@ public class Test3 {
 		
 		A1 obj2 = new B1();
 		obj2.m1(); // child class
-
+		
+		
 	}
 
 }

@@ -4,6 +4,7 @@ import com.access_modifiers.ChildProduct;
 import com.access_modifiers.Product;
 
 public class Test {
+	int i=29;
 
 	public static void main(String[] args) {
 		Product p = new Product();

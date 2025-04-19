@@ -12,7 +12,6 @@ public class Main {
 		Test t1 = new Test();
 		com.package2.Test1 t2 = new com.package2.Test1();
 		t2.print();
-
 	}
 
 }
