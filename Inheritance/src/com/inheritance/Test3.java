@@ -8,6 +8,7 @@ class A1{
 
 class B1 extends A1{
 	public void m1() {
+		super.m1();
 		System.out.println("From child class");
 	}
 }
