@@ -16,6 +16,10 @@ abstract class Parent{
 }
 //abstract Child extends Parent{}
 class Child extends Parent{
+	
+	public static void m2() {
+		System.out.println("m2 called from child class");
+	}
 	public void m1() {
 		System.out.println("m1() implemented by child class");
 	}

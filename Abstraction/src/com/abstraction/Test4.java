@@ -1,5 +1,9 @@
 package com.abstraction;
 
+interface H{
+//	int b=30;
+}
+
 interface M{
 	void m1();  // by default all the methods inside the interface are all abstract methods
 	

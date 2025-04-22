@@ -3,8 +3,9 @@ package com.abstraction;
 abstract class A{
 	int data =20; // non-final non-static variable
 	static int data2;
-	final int data3 = 40;
+	final int data3 = 40;	
 	static final int data4 = 50;
+	
 }
 
 class AImpl extends A{

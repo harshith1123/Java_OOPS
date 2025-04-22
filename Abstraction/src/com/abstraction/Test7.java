@@ -8,15 +8,12 @@ interface E{
 		
 	}
 }
-//interface F{
-//	void m1();
-//	public default void m2() {
-//		
-//	}
-//}
+interface F{
+	void m1();
+//	public default void m2() {	}
+}
 
-//class Impl implements E,F{
-class Impl implements E{
+class Impl implements E,F{
 	@Override
 	public void m1() {
 		System.out.println("Calling from implementing class");
