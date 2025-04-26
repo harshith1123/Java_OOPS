@@ -1,6 +1,10 @@
 package com.polymorphism;
 
-class Dimension{
+class Dimension extends Test{
+//	@Override
+//	public static void main() {
+//		System.out.println("Main method implementation");
+//	}
 	public static void area(double radius) {
 		System.out.println("Area of circle :"+(Math.PI * radius * radius));
 	}
